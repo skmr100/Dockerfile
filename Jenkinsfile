@@ -12,7 +12,7 @@ pipeline {
         }
         stage('login') {
             steps {
-                sh 'docker login -u "skmr100" -p "dckr_pat_VmcWunnYeql0SZae3CvyVdPAfeo" docker.io'
+                sh 'docker login -u "skmr100" -p "dckr_pat_Vmc1122WunnYeql0SZae3CvyVdPAfeo" docker.io'
             }
         }
         stage('push') {
